@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Brick.png</Source>
+      <Name>Brick</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Noah\Documents\GitHub\Games\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\bin\x86\Debug\Content\Brick.xnb</Output>
+      <Time>2013-02-19T11:18:07.9527866-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Ball.png</Source>
+      <Name>Ball</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor">255, 255, 255, 255</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Noah\Documents\GitHub\Games\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\bin\x86\Debug\Content\Ball.xnb</Output>
+      <Time>2013-02-21T12:03:52.9248214-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Bottom Paddle.png</Source>
+      <Name>Bottom Paddle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Noah\Documents\GitHub\Games\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\bin\x86\Debug\Content\Bottom Paddle.xnb</Output>
+      <Time>2013-02-19T11:18:07.946782-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Cursor.png</Source>
+      <Name>Cursor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor">255, 255, 255, 255</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Noah\Documents\GitHub\Games\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\bin\x86\Debug\Content\Cursor.xnb</Output>
+      <Time>2013-02-21T12:03:52.9278237-05:00</Time>
+    </Item>
+    <Item>
+      <Source>FireBallBar.png</Source>
+      <Name>FireBallBar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Noah\Documents\GitHub\Games\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\bin\x86\Debug\Content\FireBallBar.xnb</Output>
+      <Time>2013-02-21T12:03:52.9318264-05:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Noah\Documents\GitHub\Games\FireTokenTestRun\FireTokenTestRun\FireTokenTestRunContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Noah\Documents\GitHub\Games\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Noah\Documents\GitHub\Games\FireTokenTestRun\FireTokenTestRun\FireTokenTestRunContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Noah\Documents\GitHub\Games\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T13:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T13:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T13:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T13:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T13:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T13:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-02-14T10:14:52.7134668-05:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

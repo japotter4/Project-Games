@@ -1,0 +1,8 @@
+C:\Users\Noah\1. Programs\1.Visual Studio\SnakeGame\SnakeGame\SnakeGame\SnakeGame\obj\x86\Debug\SnakeGame.csprojResolveAssemblyReference.cache
+C:\Users\Noah\1. Programs\1.Visual Studio\SnakeGame\SnakeGame\SnakeGame\SnakeGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Noah\1. Programs\1.Visual Studio\SnakeGame\SnakeGame\SnakeGame\SnakeGame\bin\x86\Debug\SnakeGame.exe
+C:\Users\Noah\1. Programs\1.Visual Studio\SnakeGame\SnakeGame\SnakeGame\SnakeGame\bin\x86\Debug\SnakeGame.pdb
+C:\Users\Noah\1. Programs\1.Visual Studio\SnakeGame\SnakeGame\SnakeGame\SnakeGame\obj\x86\Debug\SnakeGame.exe
+C:\Users\Noah\1. Programs\1.Visual Studio\SnakeGame\SnakeGame\SnakeGame\SnakeGame\obj\x86\Debug\SnakeGame.pdb
+C:\Users\Noah\1. Programs\1.Visual Studio\SnakeGame\SnakeGame\SnakeGame\SnakeGame\bin\x86\Debug\Content\Textures\GreyBlock.xnb
+C:\Users\Noah\1. Programs\1.Visual Studio\SnakeGame\SnakeGame\SnakeGame\SnakeGame\bin\x86\Debug\Content\Textures\RedBlock.xnb
