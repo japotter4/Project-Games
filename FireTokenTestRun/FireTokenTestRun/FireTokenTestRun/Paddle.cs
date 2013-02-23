@@ -10,7 +10,7 @@ using Microsoft.Xna.Framework.Input;
 
 namespace FireTokenTestRun
 {
-    public class Paddle
+    public class paddle
     {
         //make the bounds public so the ball can detect for collision
         public Rectangle bounds;
@@ -21,7 +21,7 @@ namespace FireTokenTestRun
         private Keys rightKey;
 
         //when we create the paddle, it should know what player it is for
-        public Paddle(int player)
+        public paddle(int player)
         {
             //Player one settings
             if (player == 1)

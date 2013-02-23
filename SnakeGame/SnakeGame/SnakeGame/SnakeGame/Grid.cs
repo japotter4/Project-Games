@@ -22,6 +22,7 @@ namespace SnakeGame
         public double cellHeight;
         public bool[,] grid;
         public char[,] charGrid;
+        public List<List<Brick> >grid1;
         StreamReader streamReader;
 
         public Grid() { }

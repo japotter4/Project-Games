@@ -29,9 +29,13 @@ namespace FireTokenTestRun
             }
         }
 
-        public void Update()
+        public void Update(paddle p, FireBallBar fbb)
         {
             position.Y += velocity;
+            if (position.Intersects(p.bounds))
+            {
+                fbb.numOfBalls++;
+            }
         }
 
         public void Draw(SpriteBatch s)

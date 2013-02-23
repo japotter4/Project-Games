@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Noah\Documents\GitHub\Games\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\bin\x86\Debug\Content\Brick.xnb</Output>
-      <Time>2013-02-19T11:18:07.9527866-05:00</Time>
+      <Output>F:\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\bin\x86\Debug\Content\Brick.xnb</Output>
+      <Time>2013-02-17T13:16:08-05:00</Time>
     </Item>
     <Item>
       <Source>Ball.png</Source>
@@ -19,8 +19,8 @@
         <Data Key="ColorKeyColor">255, 255, 255, 255</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Noah\Documents\GitHub\Games\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\bin\x86\Debug\Content\Ball.xnb</Output>
-      <Time>2013-02-21T12:03:52.9248214-05:00</Time>
+      <Output>F:\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\bin\x86\Debug\Content\Ball.xnb</Output>
+      <Time>2013-02-20T19:30:24-05:00</Time>
     </Item>
     <Item>
       <Source>Bottom Paddle.png</Source>
@@ -28,8 +28,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Noah\Documents\GitHub\Games\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\bin\x86\Debug\Content\Bottom Paddle.xnb</Output>
-      <Time>2013-02-19T11:18:07.946782-05:00</Time>
+      <Output>F:\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\bin\x86\Debug\Content\Bottom Paddle.xnb</Output>
+      <Time>2013-02-17T13:16:08-05:00</Time>
     </Item>
     <Item>
       <Source>Cursor.png</Source>
@@ -40,8 +40,8 @@
         <Data Key="ColorKeyColor">255, 255, 255, 255</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Noah\Documents\GitHub\Games\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\bin\x86\Debug\Content\Cursor.xnb</Output>
-      <Time>2013-02-21T12:03:52.9278237-05:00</Time>
+      <Output>F:\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\bin\x86\Debug\Content\Cursor.xnb</Output>
+      <Time>2013-02-20T19:30:24-05:00</Time>
     </Item>
     <Item>
       <Source>FireBallBar.png</Source>
@@ -49,8 +49,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Noah\Documents\GitHub\Games\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\bin\x86\Debug\Content\FireBallBar.xnb</Output>
-      <Time>2013-02-21T12:03:52.9318264-05:00</Time>
+      <Output>F:\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\bin\x86\Debug\Content\FireBallBar.xnb</Output>
+      <Time>2013-02-20T19:30:24-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -58,10 +58,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Noah\Documents\GitHub\Games\FireTokenTestRun\FireTokenTestRun\FireTokenTestRunContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Noah\Documents\GitHub\Games\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Noah\Documents\GitHub\Games\FireTokenTestRun\FireTokenTestRun\FireTokenTestRunContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Noah\Documents\GitHub\Games\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>F:\FireTokenTestRun\FireTokenTestRun\FireTokenTestRunContent\</RootDirectory>
+      <LoggerRootDirectory>F:\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\</LoggerRootDirectory>
+      <IntermediateDirectory>F:\FireTokenTestRun\FireTokenTestRun\FireTokenTestRunContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>F:\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

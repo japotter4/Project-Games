@@ -22,9 +22,11 @@ namespace FireTokenTestRun
 
         Grid myGrid;
         Ball myBall;
-        Paddle myPaddle;
+        paddle myPaddle;
         Cursor myCursor;
         FireBallBar myFireBar;
+
+        bool idgaf = true;
 
         public Game1()
         {
@@ -48,7 +50,7 @@ namespace FireTokenTestRun
 
             myGrid = new Grid(new Rectangle(0, 0, graphics.PreferredBackBufferWidth, graphics.PreferredBackBufferHeight), 20, 40);
             myBall = new Ball(this, "Ball");
-            myPaddle = new Paddle(1);
+            myPaddle = new paddle(1);
             myCursor = new Cursor(this, ms, "Cursor");
             myFireBar = new FireBallBar(this, "FireBallBar", new Rectangle(0, 550, 100, 50), ms);
 
@@ -92,9 +94,17 @@ namespace FireTokenTestRun
             // TODO: Add your update logic here
             ms = Mouse.GetState();
 
-            if (ms.LeftButton == ButtonState.Pressed)
+            
+
+            if (ms.LeftButton == ButtonState.Pressed && idgaf && ms.Y < myPaddle.bounds.Y)
             {
                 myFireBar.Fire(this, "Ball", myPaddle);
+                idgaf = false;
+            }
+
+            if (ms.LeftButton == ButtonState.Released && !idgaf)
+            {
+                idgaf = true;
             }
 
             myBall.Update();

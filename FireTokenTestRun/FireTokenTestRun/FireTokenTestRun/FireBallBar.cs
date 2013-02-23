@@ -15,7 +15,7 @@ namespace FireTokenTestRun
         Rectangle position;
         Rectangle imageSrc;
         MouseState ms;
-        int numOfBalls;
+        public int numOfBalls = 0;
         int imageWidth = 500;
         int imageHeight = 198;
 
@@ -57,10 +57,13 @@ namespace FireTokenTestRun
             s.End();
         }
 
-        public void Fire(Game1 game, String image, Paddle p)
+        public void Fire(Game1 game, String image, paddle p)
         {
-            fireballs.Add(new FireBall(game, image, p, ms.X - p.bounds.Width / 2, ms.Y - p.bounds.Height));
-
+            //if (numOfBalls >= 0)
+            //{
+                fireballs.Add(new FireBall(game, image, p, ms.X, ms.Y));
+                //numOfBalls--;
+            //}
         }
 
     }
@@ -71,21 +74,52 @@ namespace FireTokenTestRun
         public Rectangle position;
         int Width = 15;
         int Height = 15;
-        int Xvel;
-        int Yvel;
+        double Xvel;
+        double Yvel;
+        int maxMove = 6;
+        int MouseX, MouseY;
+        int curX, curY;
+        int triangleWidth, triangleHeight, triangleHyp;
 
-        public FireBall(Game1 game, String image, Paddle p, int Xvel, int Yvel)
+        public FireBall(Game1 game, String image, paddle Paddle, int MouseX, int MouseY)
         {
+            this.MouseX = MouseX;
+            this.MouseY = MouseY;
+            curX = Paddle.bounds.X + Paddle.bounds.Width / 2;
+            curY = Paddle.bounds.Y;
+
+            Update();
+
+            //Get the image
             this.image = game.Content.Load<Texture2D>(image);
-            position = new Rectangle(p.bounds.Width / 2 - Width / 2, p.bounds.Height - Height, Width, Height);
-            this.Xvel = Xvel;
-            this.Yvel = Yvel;
         }
 
         public void Update()
         {
-            position.X += Xvel;
-            position.Y += Yvel;
+            //calc current triangle width
+            triangleWidth = Math.Abs(MouseX - curX);
+            //calc current triangle height
+            triangleHeight = Math.Abs(MouseY - curY);
+            //calc current hypotenmoose
+            triangleHyp = (int)Math.Sqrt(triangleWidth * triangleWidth + triangleHeight * triangleHeight);
+
+            //Make sure to keep the velocity when it gets too close to the point
+            if (triangleHyp > 5)
+            {
+                //calc the x vel
+                Xvel = triangleWidth / (triangleHyp / maxMove);
+                //calc the y vel
+                Yvel = triangleHeight / (triangleHyp / maxMove);
+            }
+
+            //update the postion
+            curX += (int)Xvel;
+            curY -= (int)Yvel;
+
+            position = new Rectangle(curX, curY, Width, Height);
+
+            position.X  = curX;
+            position.Y  = curY;
         }
     }
 }

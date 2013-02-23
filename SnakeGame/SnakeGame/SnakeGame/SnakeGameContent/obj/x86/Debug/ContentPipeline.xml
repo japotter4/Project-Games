@@ -7,7 +7,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Noah\1. Programs\1.Visual Studio\SnakeGame\SnakeGame\SnakeGame\SnakeGame\bin\x86\Debug\Content\Textures\GreyBlock.xnb</Output>
+      <Output>C:\Users\Noah\Documents\GitHub\Project-Games\SnakeGame\SnakeGame\SnakeGame\SnakeGame\bin\x86\Debug\Content\Textures\GreyBlock.xnb</Output>
       <Time>2013-02-17T13:04:43.1153021-05:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Noah\1. Programs\1.Visual Studio\SnakeGame\SnakeGame\SnakeGame\SnakeGame\bin\x86\Debug\Content\Textures\RedBlock.xnb</Output>
+      <Output>C:\Users\Noah\Documents\GitHub\Project-Games\SnakeGame\SnakeGame\SnakeGame\SnakeGame\bin\x86\Debug\Content\Textures\RedBlock.xnb</Output>
       <Time>2013-02-18T19:30:12.5735472-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -25,10 +25,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Noah\1. Programs\1.Visual Studio\SnakeGame\SnakeGame\SnakeGame\SnakeGameContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Noah\1. Programs\1.Visual Studio\SnakeGame\SnakeGame\SnakeGame\SnakeGame\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Noah\1. Programs\1.Visual Studio\SnakeGame\SnakeGame\SnakeGame\SnakeGameContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Noah\1. Programs\1.Visual Studio\SnakeGame\SnakeGame\SnakeGame\SnakeGame\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Noah\Documents\GitHub\Project-Games\SnakeGame\SnakeGame\SnakeGame\SnakeGameContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Noah\Documents\GitHub\Project-Games\SnakeGame\SnakeGame\SnakeGame\SnakeGame\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Noah\Documents\GitHub\Project-Games\SnakeGame\SnakeGame\SnakeGame\SnakeGameContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Noah\Documents\GitHub\Project-Games\SnakeGame\SnakeGame\SnakeGame\SnakeGame\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
