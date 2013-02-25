@@ -74,8 +74,8 @@ namespace FireTokenTestRun
         public Rectangle position;
         int Width = 15;
         int Height = 15;
-        double Xvel;
-        double Yvel;
+        int Xvel;
+        int Yvel;
         int maxMove = 6;
         int MouseX, MouseY;
         int curX, curY;
@@ -83,29 +83,38 @@ namespace FireTokenTestRun
 
         public FireBall(Game1 game, String image, paddle Paddle, int MouseX, int MouseY)
         {
-            this.MouseX = MouseX;
-            this.MouseY = MouseY;
-            curX = Paddle.bounds.X + Paddle.bounds.Width / 2;
-            curY = Paddle.bounds.Y;
+            //Get the image
+            this.image = game.Content.Load<Texture2D>(image);
+
+            this.MouseX = MouseX - this.image.Bounds.Width / 2;
+            this.MouseY = MouseY - this.image.Bounds.Height / 2;
+            curX = Paddle.bounds.X + Paddle.bounds.Width / 2 - this.image.Bounds.Width / 2;
+            curY = Paddle.bounds.Y - this.image.Bounds.Height / 2;
+
+            //calc current triangle width
+            triangleWidth = MouseX - curX;
+            //calc current triangle height
+            triangleHeight = curY - MouseY;
+            //calc current hypotenmoose
+            triangleHyp = (int)Math.Sqrt(triangleWidth * triangleWidth + triangleHeight * triangleHeight);
 
             Update();
 
-            //Get the image
-            this.image = game.Content.Load<Texture2D>(image);
         }
 
         public void Update()
         {
-            //calc current triangle width
-            triangleWidth = Math.Abs(MouseX - curX);
-            //calc current triangle height
-            triangleHeight = Math.Abs(MouseY - curY);
-            //calc current hypotenmoose
-            triangleHyp = (int)Math.Sqrt(triangleWidth * triangleWidth + triangleHeight * triangleHeight);
-
             //Make sure to keep the velocity when it gets too close to the point
-            if (triangleHyp > 5)
+            if (triangleHyp > 15)
             {
+                //calc current triangle width
+                triangleWidth = MouseX - curX;
+                //calc current triangle height
+                triangleHeight = curY - MouseY;
+                //calc current hypotenmoose
+                triangleHyp = (int)Math.Sqrt(triangleWidth * triangleWidth + triangleHeight * triangleHeight);
+
+            
                 //calc the x vel
                 Xvel = triangleWidth / (triangleHyp / maxMove);
                 //calc the y vel

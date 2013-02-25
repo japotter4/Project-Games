@@ -29,3 +29,14 @@ F:\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\obj\x86\Debug\FireTokenTes
 F:\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 F:\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\obj\x86\Debug\FireTokenTestRun.exe
 F:\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\obj\x86\Debug\FireTokenTestRun.pdb
+C:\Users\Noah\Documents\GitHub\Project-Games\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\bin\x86\Debug\Content\Brick.xnb
+C:\Users\Noah\Documents\GitHub\Project-Games\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\bin\x86\Debug\Content\Ball.xnb
+C:\Users\Noah\Documents\GitHub\Project-Games\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\bin\x86\Debug\Content\Bottom Paddle.xnb
+C:\Users\Noah\Documents\GitHub\Project-Games\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\bin\x86\Debug\Content\Cursor.xnb
+C:\Users\Noah\Documents\GitHub\Project-Games\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\bin\x86\Debug\Content\FireBallBar.xnb
+C:\Users\Noah\Documents\GitHub\Project-Games\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\bin\x86\Debug\FireTokenTestRun.exe
+C:\Users\Noah\Documents\GitHub\Project-Games\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\bin\x86\Debug\FireTokenTestRun.pdb
+C:\Users\Noah\Documents\GitHub\Project-Games\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\obj\x86\Debug\FireTokenTestRun.csprojResolveAssemblyReference.cache
+C:\Users\Noah\Documents\GitHub\Project-Games\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Noah\Documents\GitHub\Project-Games\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\obj\x86\Debug\FireTokenTestRun.exe
+C:\Users\Noah\Documents\GitHub\Project-Games\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\obj\x86\Debug\FireTokenTestRun.pdb
