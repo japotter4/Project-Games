@@ -115,5 +115,15 @@ namespace FireTokenTestRun
             return cell;
         }
 
+        public int getCellWidth(int n)
+        {
+            return numCellsLong * (int)cellWidth;
+        }
+
+        public int getCellHeight(int n)
+        {
+            return numCellsHigh * (int)cellHeight;
+        }
+
     }
 }

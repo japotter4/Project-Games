@@ -1,0 +1,3 @@
+\\filer01\rmcguin1\my documents\visual studio 2010\Projects\DickingAround\DickingAround\DickingAroundContent\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\Personal Programming\DickingAround\DickingAround\DickingAroundContent\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Personal Programming\DickingAround\DickingAround\DickingAroundContent\obj\x86\Debug\DickingAroundContent.contentprojResolveAssemblyReference.cache

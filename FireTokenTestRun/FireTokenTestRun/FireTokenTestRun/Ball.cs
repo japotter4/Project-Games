@@ -30,6 +30,9 @@ namespace FireTokenTestRun
         int redScore = 0;
         int blueScore = 0;
 
+        //Needed to facilitate firetoken drops
+        FireTokenManager fireTokenManager;
+
         //We will need references to the paddles for collision detection, and
         //our Game1 contains these references, our ball should have the
         //reference to the Game1
@@ -44,6 +47,9 @@ namespace FireTokenTestRun
             //we use a random object when randomly setting the balls direction
             rand = new Random();
 
+            //Init
+            fireTokenManager = new FireTokenManager(g);
+
             //the ball should start near at the center of the screen
             //use a size of 20x20
             ball = new Rectangle(
@@ -54,7 +60,7 @@ namespace FireTokenTestRun
 
             reset();
 
-            //Initialize the score
+            
             //font = game1.Content.Load<SpriteFont>(@"ScoreFont");
         }
 
