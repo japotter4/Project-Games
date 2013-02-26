@@ -10,7 +10,7 @@
         <Data Key="ColorKeyColor">255, 255, 255, 255</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>F:\Personal Programming\DickingAround\DickingAround\DickingAround\bin\x86\Debug\Content\Stone.xnb</Output>
+      <Output>C:\Users\Ross\Documents\GitHub\Project-Games\DickingAround\DickingAround\bin\x86\Debug\Content\Stone.xnb</Output>
       <Time>2013-02-25T15:45:24-05:00</Time>
     </Item>
     <Item>
@@ -19,7 +19,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Personal Programming\DickingAround\DickingAround\DickingAround\bin\x86\Debug\Content\Brick.xnb</Output>
+      <Output>C:\Users\Ross\Documents\GitHub\Project-Games\DickingAround\DickingAround\bin\x86\Debug\Content\Brick.xnb</Output>
       <Time>2013-02-25T21:08:44-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -28,10 +28,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>F:\Personal Programming\DickingAround\DickingAround\DickingAroundContent\</RootDirectory>
-      <LoggerRootDirectory>F:\Personal Programming\DickingAround\DickingAround\DickingAround\</LoggerRootDirectory>
-      <IntermediateDirectory>F:\Personal Programming\DickingAround\DickingAround\DickingAroundContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>F:\Personal Programming\DickingAround\DickingAround\DickingAround\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Ross\Documents\GitHub\Project-Games\DickingAround\DickingAroundContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Ross\Documents\GitHub\Project-Games\DickingAround\DickingAround\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Ross\Documents\GitHub\Project-Games\DickingAround\DickingAroundContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Ross\Documents\GitHub\Project-Games\DickingAround\DickingAround\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

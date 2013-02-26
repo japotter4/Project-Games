@@ -56,19 +56,22 @@ namespace DickingAround
             {
                 for (int j = 0; j < numCellsWide; j++)
                 {
-                    if(strLayout[count] != '-')
+                    while(strLayout[count] == '\r' || strLayout[count] == '\n')
                     {
-                        continue;
+                        count++;
                     }
                     switch (strLayout[count])
                     {
                         //Enter your block symbols here 
-                        case '-':   grid[i, j] = new Stone(game, this, "Stone", j, i);
-                                    break;
+                        case '-':
+                            grid[i, j] = new Stone(game, this, "Stone", j, i);
+                            count++;
+                            break;
                         default:
-                                    break;
+                            grid[i, j] = null;
+                            count++;
+                            break;
                     }
-                    count++;
                 }
             }
         }
