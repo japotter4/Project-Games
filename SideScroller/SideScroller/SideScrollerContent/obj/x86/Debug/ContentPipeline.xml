@@ -8,7 +8,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Noah\Documents\GitHub\Project-Games\SideScroller\SideScroller\SideScroller\bin\x86\Debug\Content\Textures\ExportSmallCharacter1.xnb</Output>
-      <Time>2013-02-25T17:46:55.1657356-05:00</Time>
+      <Time>2013-02-26T19:12:39.3857115-05:00</Time>
     </Item>
     <Item>
       <Source>Fonts\Font.spritefont</Source>
@@ -17,7 +17,7 @@
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Noah\Documents\GitHub\Project-Games\SideScroller\SideScroller\SideScroller\bin\x86\Debug\Content\Fonts\Font.xnb</Output>
-      <Time>2013-02-25T18:30:05.9285621-05:00</Time>
+      <Time>2013-02-26T19:12:39.3757127-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Ship.png</Source>
@@ -26,7 +26,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Noah\Documents\GitHub\Project-Games\SideScroller\SideScroller\SideScroller\bin\x86\Debug\Content\Textures\Ship.xnb</Output>
-      <Time>2013-02-26T17:53:07.1682379-05:00</Time>
+      <Time>2013-02-26T19:12:39.3957188-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\GreyBlock.png</Source>
@@ -35,7 +35,25 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Noah\Documents\GitHub\Project-Games\SideScroller\SideScroller\SideScroller\bin\x86\Debug\Content\Textures\GreyBlock.xnb</Output>
-      <Time>2013-02-26T18:39:26.480119-05:00</Time>
+      <Time>2013-02-26T19:12:39.3927171-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\StarBackground.png</Source>
+      <Name>Textures\StarBackground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Noah\Documents\GitHub\Project-Games\SideScroller\SideScroller\SideScroller\bin\x86\Debug\Content\Textures\StarBackground.xnb</Output>
+      <Time>2013-02-26T21:17:45.8270284-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Bullet.png</Source>
+      <Name>Textures\Bullet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Noah\Documents\GitHub\Project-Games\SideScroller\SideScroller\SideScroller\bin\x86\Debug\Content\Textures\Bullet.xnb</Output>
+      <Time>2013-02-26T23:16:04.1253949-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

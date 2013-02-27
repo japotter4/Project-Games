@@ -21,3 +21,11 @@ C:\Users\Ross\Documents\GitHub\Project-Games\DickingAround\DickingAround\obj\x86
 C:\Users\Ross\Documents\GitHub\Project-Games\DickingAround\DickingAround\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Ross\Documents\GitHub\Project-Games\DickingAround\DickingAround\obj\x86\Debug\DickingAround.exe
 C:\Users\Ross\Documents\GitHub\Project-Games\DickingAround\DickingAround\obj\x86\Debug\DickingAround.pdb
+C:\Users\Noah\Documents\GitHub\Project-Games\DickingAround\DickingAround\bin\x86\Debug\Content\Stone.xnb
+C:\Users\Noah\Documents\GitHub\Project-Games\DickingAround\DickingAround\bin\x86\Debug\Content\Brick.xnb
+C:\Users\Noah\Documents\GitHub\Project-Games\DickingAround\DickingAround\bin\x86\Debug\DickingAround.exe
+C:\Users\Noah\Documents\GitHub\Project-Games\DickingAround\DickingAround\bin\x86\Debug\DickingAround.pdb
+C:\Users\Noah\Documents\GitHub\Project-Games\DickingAround\DickingAround\obj\x86\Debug\DickingAround.csprojResolveAssemblyReference.cache
+C:\Users\Noah\Documents\GitHub\Project-Games\DickingAround\DickingAround\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Noah\Documents\GitHub\Project-Games\DickingAround\DickingAround\obj\x86\Debug\DickingAround.exe
+C:\Users\Noah\Documents\GitHub\Project-Games\DickingAround\DickingAround\obj\x86\Debug\DickingAround.pdb

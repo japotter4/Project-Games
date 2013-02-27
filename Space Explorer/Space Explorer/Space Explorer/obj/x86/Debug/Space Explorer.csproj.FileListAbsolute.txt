@@ -1,0 +1,9 @@
+C:\Users\Noah\Documents\GitHub\Project-Games\Space Explorer\Space Explorer\Space Explorer\bin\x86\Debug\Space Explorer.exe
+C:\Users\Noah\Documents\GitHub\Project-Games\Space Explorer\Space Explorer\Space Explorer\bin\x86\Debug\Space Explorer.pdb
+C:\Users\Noah\Documents\GitHub\Project-Games\Space Explorer\Space Explorer\Space Explorer\obj\x86\Debug\Space Explorer.csprojResolveAssemblyReference.cache
+C:\Users\Noah\Documents\GitHub\Project-Games\Space Explorer\Space Explorer\Space Explorer\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Noah\Documents\GitHub\Project-Games\Space Explorer\Space Explorer\Space Explorer\obj\x86\Debug\Space Explorer.exe
+C:\Users\Noah\Documents\GitHub\Project-Games\Space Explorer\Space Explorer\Space Explorer\obj\x86\Debug\Space Explorer.pdb
+C:\Users\Noah\Documents\GitHub\Project-Games\Space Explorer\Space Explorer\Space Explorer\bin\x86\Debug\Content\Textures\Bullet.xnb
+C:\Users\Noah\Documents\GitHub\Project-Games\Space Explorer\Space Explorer\Space Explorer\bin\x86\Debug\Content\Textures\Ship.xnb
+C:\Users\Noah\Documents\GitHub\Project-Games\Space Explorer\Space Explorer\Space Explorer\bin\x86\Debug\Content\Textures\StarBackground.xnb

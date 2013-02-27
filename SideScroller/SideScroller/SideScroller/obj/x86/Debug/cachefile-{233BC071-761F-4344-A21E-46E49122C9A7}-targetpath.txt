@@ -2,3 +2,5 @@ Content\Textures\ExportSmallCharacter1.xnb
 Content\Fonts\Font.xnb
 Content\Textures\Ship.xnb
 Content\Textures\GreyBlock.xnb
+Content\Textures\StarBackground.xnb
+Content\Textures\Bullet.xnb

@@ -26,6 +26,13 @@ namespace SideScroller {
         // This is the rotation angle measured in radians
         private float rotationAngle;
 
+        Vector2 distance;
+
+        //
+        List<Bullets> bullets = new List<Bullets>();
+        //
+        Texture2D bulletTexture;
+
         // Constructor that accepts the source texture and initial position
         public Ship(Texture2D newTexture, Vector2 newPosition) {
             texture = newTexture;
@@ -35,8 +42,23 @@ namespace SideScroller {
             origin = new Vector2(texture.Width / 2, texture.Height/ 2);
         }
 
+        //
+        public void BulletTexture(Texture2D texture) {
+            bulletTexture = texture;
+        }
+
         // Called everytime sprite needs to be updated 
         public void Update(GameTime gameTime) {
+            //// Get the state of the mouse
+            //MouseState mouse = Mouse.GetState();
+            //
+            //// Get the distance
+            //distance.X = mouse.X - position.X;
+            //distance.Y = mouse.Y - position.Y;
+
+            //// Get the needed rotation
+            //rotationAngle = (float)Math.Atan2(distance.Y, distance.X);
+
             // Update the rectangle
             rectangle = new Rectangle((int)position.X, (int)position.Y, texture.Width, texture.Height);
             // Update the position based on the velocity values
@@ -59,11 +81,42 @@ namespace SideScroller {
             else if(velocity != Vector2.Zero) { // Slow down the sprite when forward isn't being pressed
                 velocity -= friction * velocity;
             }
+
+            UpdateBullets();
+        }
+
+        public void UpdateBullets() {
+            foreach(Bullets bullet in bullets) {
+                bullet.position += bullet.velocity;
+                if (Vector2.Distance(bullet.position, position) > 500) {
+                    bullet.isVisible = false;
+                }
+            }
+            for(int i = 0; i < bullets.Count; i++) {
+                if(!bullets[i].isVisible) {
+                    bullets.RemoveAt(i);
+                    i--;
+                }
+            }
+        }
+
+        public void Shoot() {
+            Bullets newBullet = new Bullets(bulletTexture, rotationAngle);
+            newBullet.velocity = new Vector2((float)Math.Cos(rotationAngle), (float)Math.Sin(rotationAngle)) * 5f + velocity;
+            newBullet.position = position + newBullet.velocity * 5;
+            newBullet.isVisible = true;
+
+            if(bullets.Count < 20) {
+                bullets.Add(newBullet);
+            }
         }
 
         // Simply draw the sprite to the screen. Draw.Begin() must be called first outside of method.
         public void Draw(SpriteBatch spriteBatch) {
             spriteBatch.Draw(texture, position, null, Color.White, rotationAngle, origin, 1f, SpriteEffects.None, 0);
+            foreach(Bullets bullet in bullets) {
+                bullet.Draw(spriteBatch);
+            }
         }
     }
 }

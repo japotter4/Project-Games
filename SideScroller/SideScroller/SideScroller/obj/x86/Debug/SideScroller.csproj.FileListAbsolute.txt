@@ -8,3 +8,5 @@ C:\Users\Noah\Documents\GitHub\Project-Games\SideScroller\SideScroller\SideScrol
 C:\Users\Noah\Documents\GitHub\Project-Games\SideScroller\SideScroller\SideScroller\bin\x86\Debug\Content\Fonts\Font.xnb
 C:\Users\Noah\Documents\GitHub\Project-Games\SideScroller\SideScroller\SideScroller\bin\x86\Debug\Content\Textures\Ship.xnb
 C:\Users\Noah\Documents\GitHub\Project-Games\SideScroller\SideScroller\SideScroller\bin\x86\Debug\Content\Textures\GreyBlock.xnb
+C:\Users\Noah\Documents\GitHub\Project-Games\SideScroller\SideScroller\SideScroller\bin\x86\Debug\Content\Textures\StarBackground.xnb
+C:\Users\Noah\Documents\GitHub\Project-Games\SideScroller\SideScroller\SideScroller\bin\x86\Debug\Content\Textures\Bullet.xnb

@@ -57,13 +57,17 @@ namespace SideScroller
 
             //Initialize the ship
             ship = new Ship(Content.Load<Texture2D>(@"Textures/Ship"), new Vector2(GlobalClass.ScreenWidth / 2, GlobalClass.ScreenHeight / 2));
+            ship.BulletTexture(Content.Load<Texture2D>(@"Textures/Bullet"));
 
             //Initialize the camera
             camera = new Camera(GraphicsDevice.Viewport);
 
             //Initialize the background
-            backgroundTexture = Content.Load<Texture2D>(@"Textures/GreyBlock");
+            backgroundTexture = Content.Load<Texture2D>(@"Textures/StarBackground");
             backgroundPosition = new Vector2(0, 0);
+
+            // Make sure the mouse is visible
+            IsMouseVisible = true;
 
             base.Initialize();
         }
@@ -104,6 +108,11 @@ namespace SideScroller
             else if (presentKey.IsKeyDown(Keys.Left) && pastKey.IsKeyUp(Keys.Left))
             {
                 score -= 1;
+            }
+
+            if (presentKey.IsKeyDown(Keys.Space) && pastKey.IsKeyUp(Keys.Space))
+            {
+                ship.Shoot();
             }
 
             //Update the level
@@ -160,8 +169,7 @@ namespace SideScroller
                               null, null, null, null,
                               camera.transform);
             spriteBatch.Draw(backgroundTexture, 
-                             new Rectangle(0, 0, (int)GlobalClass.ScreenWidth, (int)GlobalClass.ScreenHeight), 
-                             new Rectangle(0, 0, backgroundTexture.Width, backgroundTexture.Height), 
+                             new Vector2(0, 0),  
                              Color.White);
             player.Draw(spriteBatch);
             ship.Draw(spriteBatch);

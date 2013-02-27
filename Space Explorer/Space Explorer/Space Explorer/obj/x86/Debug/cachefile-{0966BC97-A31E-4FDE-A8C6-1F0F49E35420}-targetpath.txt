@@ -1,0 +1,3 @@
+Content\Textures\Bullet.xnb
+Content\Textures\Ship.xnb
+Content\Textures\StarBackground.xnb
