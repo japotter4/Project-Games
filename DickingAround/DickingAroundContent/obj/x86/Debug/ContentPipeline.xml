@@ -2,66 +2,36 @@
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
+      <Source>Stone.png</Source>
+      <Name>Stone</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor">255, 255, 255, 255</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Ross\Documents\GitHub\Project-Games\DickingAround\DickingAround\bin\x86\Debug\Content\Stone.xnb</Output>
+      <Time>2013-02-25T15:45:24-05:00</Time>
+    </Item>
+    <Item>
       <Source>Brick.png</Source>
       <Name>Brick</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ross\Documents\GitHub\Project-Games\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\bin\x86\Debug\Content\Brick.xnb</Output>
-      <Time>2013-02-21T14:39:27.1942283-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Ball.png</Source>
-      <Name>Ball</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor">255, 255, 255, 255</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>C:\Users\Ross\Documents\GitHub\Project-Games\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\bin\x86\Debug\Content\Ball.xnb</Output>
-      <Time>2013-02-21T14:39:27.189228-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Bottom Paddle.png</Source>
-      <Name>Bottom Paddle</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Ross\Documents\GitHub\Project-Games\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\bin\x86\Debug\Content\Bottom Paddle.xnb</Output>
-      <Time>2013-02-21T14:39:27.1922282-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Cursor.png</Source>
-      <Name>Cursor</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor">255, 255, 255, 255</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>C:\Users\Ross\Documents\GitHub\Project-Games\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\bin\x86\Debug\Content\Cursor.xnb</Output>
-      <Time>2013-02-21T14:39:27.1972284-05:00</Time>
-    </Item>
-    <Item>
-      <Source>FireBallBar.png</Source>
-      <Name>FireBallBar</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Ross\Documents\GitHub\Project-Games\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\bin\x86\Debug\Content\FireBallBar.xnb</Output>
-      <Time>2013-02-21T14:39:27.2002286-05:00</Time>
+      <Output>C:\Users\Ross\Documents\GitHub\Project-Games\DickingAround\DickingAround\bin\x86\Debug\Content\Brick.xnb</Output>
+      <Time>2013-02-25T21:08:44-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>
-      <TargetProfile>HiDef</TargetProfile>
+      <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Ross\Documents\GitHub\Project-Games\FireTokenTestRun\FireTokenTestRun\FireTokenTestRunContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Ross\Documents\GitHub\Project-Games\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Ross\Documents\GitHub\Project-Games\FireTokenTestRun\FireTokenTestRun\FireTokenTestRunContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Ross\Documents\GitHub\Project-Games\FireTokenTestRun\FireTokenTestRun\FireTokenTestRun\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Ross\Documents\GitHub\Project-Games\DickingAround\DickingAroundContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Ross\Documents\GitHub\Project-Games\DickingAround\DickingAround\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Ross\Documents\GitHub\Project-Games\DickingAround\DickingAroundContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Ross\Documents\GitHub\Project-Games\DickingAround\DickingAround\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
