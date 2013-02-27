@@ -8,7 +8,34 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Noah\Documents\GitHub\Project-Games\SideScroller\SideScroller\SideScroller\bin\x86\Debug\Content\Textures\ExportSmallCharacter1.xnb</Output>
-      <Time>2013-02-22T00:32:22.7980187-05:00</Time>
+      <Time>2013-02-25T17:46:55.1657356-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\Font.spritefont</Source>
+      <Name>Fonts\Font</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Noah\Documents\GitHub\Project-Games\SideScroller\SideScroller\SideScroller\bin\x86\Debug\Content\Fonts\Font.xnb</Output>
+      <Time>2013-02-25T18:30:05.9285621-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Ship.png</Source>
+      <Name>Textures\Ship</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Noah\Documents\GitHub\Project-Games\SideScroller\SideScroller\SideScroller\bin\x86\Debug\Content\Textures\Ship.xnb</Output>
+      <Time>2013-02-26T17:53:07.1682379-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\GreyBlock.png</Source>
+      <Name>Textures\GreyBlock</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Noah\Documents\GitHub\Project-Games\SideScroller\SideScroller\SideScroller\bin\x86\Debug\Content\Textures\GreyBlock.xnb</Output>
+      <Time>2013-02-26T18:39:26.480119-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

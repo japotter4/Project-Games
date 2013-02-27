@@ -15,10 +15,30 @@ namespace SideScroller
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-        //Create my sprite texture
-        Texture2D spriteImage;
         //Create a sprite
-        Sprite mySprite;
+        Animation player;
+        //Using fonts
+        SpriteFont font;
+        //Score holder
+        int score;
+        //Control to keys
+        KeyboardState presentKey;
+        KeyboardState pastKey;
+        //Ship object
+        Ship ship;
+        //Viewing object
+        Camera camera;
+        //Add a background
+        Texture2D backgroundTexture;
+        Vector2 backgroundPosition;
+
+        public enum GameState
+        {
+            MainMenu,
+            LevelSelect,
+            LevelOne,
+        }
+        GameState currentState = GameState.MainMenu;
 
         public Game1()
         {
@@ -28,12 +48,23 @@ namespace SideScroller
 
         protected override void Initialize()
         {
-            // TODO: Add your initialization logic here
-            //Get the sprite image
-            spriteImage = Content.Load<Texture2D>(@"Textures/ExportSmallCharacter1");
-            mySprite = new Sprite(spriteImage, 65, 125, 7);
-            mySprite.setSpeed(10);
-            mySprite.setRefreshRate(7);
+            //Initialize the variable in GlobalClass
+            GlobalClass.ScreenWidth = graphics.GraphicsDevice.Viewport.Width;
+            GlobalClass.ScreenHeight = graphics.GraphicsDevice.Viewport.Height;
+
+            //Initialize the player
+            player = new Animation(Content.Load<Texture2D>(@"Textures/ExportSmallCharacter1"), new Vector2(0, 65), 65, 125);
+
+            //Initialize the ship
+            ship = new Ship(Content.Load<Texture2D>(@"Textures/Ship"), new Vector2(GlobalClass.ScreenWidth / 2, GlobalClass.ScreenHeight / 2));
+
+            //Initialize the camera
+            camera = new Camera(GraphicsDevice.Viewport);
+
+            //Initialize the background
+            backgroundTexture = Content.Load<Texture2D>(@"Textures/GreyBlock");
+            backgroundPosition = new Vector2(0, 0);
+
             base.Initialize();
         }
 
@@ -42,7 +73,7 @@ namespace SideScroller
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            // TODO: use this.Content to load your game content here
+            font = Content.Load<SpriteFont>(@"Fonts/Font");
         }
 
         protected override void UnloadContent()
@@ -56,7 +87,53 @@ namespace SideScroller
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
 
-            mySprite.Update();
+            //Get the keyboard state
+            presentKey = Keyboard.GetState();
+
+            //Update the player
+            player.Update(gameTime);
+
+            //Update the schip
+            ship.Update(gameTime);
+
+            //Update the score
+            if (presentKey.IsKeyDown(Keys.Right) && pastKey.IsKeyUp(Keys.Right))
+            {
+                score += 1;
+            }
+            else if (presentKey.IsKeyDown(Keys.Left) && pastKey.IsKeyUp(Keys.Left))
+            {
+                score -= 1;
+            }
+
+            //Update the level
+            switch (currentState)
+            {
+                case GameState.MainMenu:
+                    //Check what level the player wants
+                    if (presentKey.IsKeyDown(Keys.Space))
+                    {
+                        currentState = GameState.LevelSelect;
+                    }
+                    break;
+                case GameState.LevelSelect:
+                    if (presentKey.IsKeyDown(Keys.D1))
+                    {
+                        currentState = GameState.LevelOne;
+                    }
+                    break;
+                case GameState.LevelOne:
+                    if (presentKey.IsKeyDown(Keys.Enter))
+                    {
+                        currentState = GameState.MainMenu;
+                    }
+                    break;
+            }
+
+            //Update the camera
+            camera.Update(gameTime, ship);
+
+            pastKey = presentKey;
 
             base.Update(gameTime);
         }
@@ -65,7 +142,31 @@ namespace SideScroller
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
-            mySprite.Draw(spriteBatch);
+            switch (currentState)
+            {
+                case GameState.MainMenu:
+                    GraphicsDevice.Clear(Color.CornflowerBlue);
+                    break;
+                case GameState.LevelSelect:
+                    GraphicsDevice.Clear(Color.Tomato);
+                    break;
+                case GameState.LevelOne:
+                    GraphicsDevice.Clear(Color.Salmon);
+                    break;
+            }
+
+            spriteBatch.Begin(SpriteSortMode.Deferred,
+                              BlendState.AlphaBlend,
+                              null, null, null, null,
+                              camera.transform);
+            spriteBatch.Draw(backgroundTexture, 
+                             new Rectangle(0, 0, (int)GlobalClass.ScreenWidth, (int)GlobalClass.ScreenHeight), 
+                             new Rectangle(0, 0, backgroundTexture.Width, backgroundTexture.Height), 
+                             Color.White);
+            player.Draw(spriteBatch);
+            ship.Draw(spriteBatch);
+            spriteBatch.DrawString(font, "Score: " + score, new Vector2(20, 10), Color.Red);
+            spriteBatch.End();
 
             base.Draw(gameTime);
         }

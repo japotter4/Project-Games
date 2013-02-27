@@ -5,3 +5,6 @@ C:\Users\Noah\Documents\GitHub\Project-Games\SideScroller\SideScroller\SideScrol
 C:\Users\Noah\Documents\GitHub\Project-Games\SideScroller\SideScroller\SideScroller\obj\x86\Debug\SideScroller.exe
 C:\Users\Noah\Documents\GitHub\Project-Games\SideScroller\SideScroller\SideScroller\obj\x86\Debug\SideScroller.pdb
 C:\Users\Noah\Documents\GitHub\Project-Games\SideScroller\SideScroller\SideScroller\bin\x86\Debug\Content\Textures\ExportSmallCharacter1.xnb
+C:\Users\Noah\Documents\GitHub\Project-Games\SideScroller\SideScroller\SideScroller\bin\x86\Debug\Content\Fonts\Font.xnb
+C:\Users\Noah\Documents\GitHub\Project-Games\SideScroller\SideScroller\SideScroller\bin\x86\Debug\Content\Textures\Ship.xnb
+C:\Users\Noah\Documents\GitHub\Project-Games\SideScroller\SideScroller\SideScroller\bin\x86\Debug\Content\Textures\GreyBlock.xnb
